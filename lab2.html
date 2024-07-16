@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhant's Portfolio site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>THIS MY PORTFOLIO SITE</header>
+    <nav class="navbar">
+        <ul>
+            <li id="p"><a href="#">Projects</a></li>
+            <li id="a"><a href="#">Assignment</a></li>
+            <li id="g"><a href="#">Grades</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h1>ABOUT MY SELF</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa rerum consequatur possimus sunt perspiciatis velit quidem commodi necessitatibus! Vitae maxime eaque, amet consequuntur reiciendis dolorem asperiores placeat. Deserunt molestiae, rem cumque culpa tempore perferendis!
+            </p>
+        </article>
+        <div id="content">
+            
+        </div>
+    </section>
+    <script>
+// Function to load text based on the clicked nav item
+function loadContent(text) {
+    document.getElementById('content').innerText = text;
+}
+
+// Adding event listeners to the nav items
+document.getElementById('p').addEventListener('click', function() {
+    loadContent('this are my projects!');
+});
+
+document.getElementById('a').addEventListener('click', function() {
+    loadContent('this are my assignments');
+});
+
+document.getElementById('g').addEventListener('click', function() {
+    loadContent('this are my grades');
+});
+</script>
+</body>
+</html>

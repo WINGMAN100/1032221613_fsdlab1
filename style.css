@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+margin-left: 10px;
+margin-top: 50px;
+margin-bottom:50px;
+color:black;
+}
+.navbar{
+    background:#000;
+}
+.navbar ul{
+    list-style-type:none;
+    display:flex;
+    justify-content: center;
+}
+.navbar ul li{
+    margin: 0px 20px;
+
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    color: yellow;
+}
+h1{
+    color:black
+}
+section{
+    margin:50px;
+}
+p{
+    margin: 20px;
+}
